@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="images/Alura.png" alt="AluraGeek" class="logo">
+    </header>
+    <main>
+        <section class="product-list">
+            <h2>MIS PRODUCTOS:</h2>
+            <div class="products" id="products"></div>
+        </section>
+        <section class="add-product">
+            <h2>AGREGAR PRODUCTO:</h2>
+            <form id="add-product-form">
+                <input type="text" id="product-name" name="name" placeholder="nombre..." required>
+                <input type="text" id="product-price" name="price" placeholder="precio..." required>
+                <input type="text" id="product-image" name="image" placeholder="imagen..." required>
+                <div class="buttons">
+                    <button type="submit" class="submit-button">Enviar</button>
+                    <button type="reset" class="reset-button">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <img src="images/Alura_Logo.png" alt="Alura Logo" class="footer-logo">
+        <p>Desarrollado por Miguel Angel Camargo</p>
+        <p>Alura LATAM - 2024</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>

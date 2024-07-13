@@ -1,0 +1,17 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Stormtrooper",
+        "price": "60.00",
+        "image": "images/stormtrooper.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Game Boy Classic",
+        "price": "60.00",
+        "image": "images/gameboy.jpg"
+      }
+    ]
+  }
+   

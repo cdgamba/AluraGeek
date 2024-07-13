@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4A148C;
+    text-align: center;
+    padding: 1em;
+}
+
+header .logo {
+    max-width: 100%;
+    height: auto;
+    width: 200px; /* Ajusta el tamaño según sea necesario */
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+}
+
+.product-list, .add-product {
+    flex: 1;
+    margin: 0 1em;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.product {
+    border: 2px solid #4A148C;
+    border-radius: 10px;
+    background-color: #f3e5f5;
+    margin: 1em;
+    padding: 1em;
+    text-align: left;
+    width: calc(33.333% - 2em); /* 3 columnas */
+    box-sizing: border-box;
+    position: relative;
+}
+
+.product img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+.product h3 {
+    margin: 0.5em 0;
+    font-size: 1em; /* Reducir tamaño del título */
+}
+
+.product p.price {
+    background-color: #4A148C;
+    color: white;
+    border-radius: 5px;
+    padding: 0.3em 0.5em;
+    font-size: 0.9em; /* Reducir tamaño del precio */
+    width: auto;
+    text-align: left;
+}
+
+.product .recycle-icon {
+    position: absolute;
+    bottom: 0.5em;
+    right: 0.5em;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    padding: 1em; /* Aumentar el tamaño de los cuadros de texto */
+    margin: 0.5em 0;
+    border-radius: 10px; /* Hacer los cuadros de texto redondeados */
+    border: 1px solid #ccc;
+    font-size: 1.2em;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 1em 2em; /* Aumentar el tamaño de los botones */
+    border: none;
+    border-radius: 10px; /* Hacer los botones redondeados */
+    cursor: pointer;
+    font-size: 1.2em; /* Aumentar el tamaño del texto del botón */
+}
+
+.submit-button {
+    background-color: blue;
+    color: white;
+}
+
+.reset-button {
+    background-color: #f3e5f5;
+    color: black;
+}
+
+footer {
+    background-color: #4A148C;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+footer .footer-logo {
+    display: block;
+    margin: 0 auto;
+    width: 200px; /* Ajusta el tamaño según sea necesario */
+    height: auto;
+}
